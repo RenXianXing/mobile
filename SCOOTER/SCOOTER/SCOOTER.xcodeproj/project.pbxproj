@@ -1,0 +1,951 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41034D6A21A48234008206D2 /* RideHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41034D6921A48234008206D2 /* RideHistoryTableViewCell.swift */; };
+		4106325B219A462C00DBA7F5 /* PriceResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4106325A219A462C00DBA7F5 /* PriceResultViewController.swift */; };
+		4117418421980144002761FB /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4117418321980144002761FB /* helper.swift */; };
+		413B02F421AEC17F009EF920 /* CreditCardValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413B02F321AEC17F009EF920 /* CreditCardValidator.swift */; };
+		413B02F621AEC1C6009EF920 /* CreditCardValidationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413B02F521AEC1C6009EF920 /* CreditCardValidationType.swift */; };
+		414495D121AF4F18003FC04D /* AddCreditorDebitCardviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414495D021AF4F17003FC04D /* AddCreditorDebitCardviewController.swift */; };
+		414DF9BA21A015D3008A0DAC /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DF9B921A015D3008A0DAC /* Notifications.swift */; };
+		415A26E0219DF79F00349968 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415A26DF219DF79F00349968 /* Api.swift */; };
+		4176E76C21A5449300D29A4E /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4176E76B21A5449300D29A4E /* SideMenuViewController.swift */; };
+		41A27355219AF4E600AD560D /* SignUpDepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A27354219AF4E600AD560D /* SignUpDepositViewController.swift */; };
+		41A3BB3621A643E100198898 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A3BB3521A643E100198898 /* LaunchViewController.swift */; };
+		41A3BB3821A64D6C00198898 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A3BB3721A64D6C00198898 /* extensions.swift */; };
+		41B17A3521A28C4B002101F1 /* DepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B17A3421A28C4B002101F1 /* DepositViewController.swift */; };
+		41B690BB2190EADE00F570AA /* Connect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B690BA2190EADE00F570AA /* Connect.swift */; };
+		41C0B40721AE1AAA006EB467 /* RoundedUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C0B40621AE1AAA006EB467 /* RoundedUIButton.swift */; };
+		41C0B40921AE25B8006EB467 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C0B40821AE25B8006EB467 /* PaymentViewController.swift */; };
+		41C0B40B21AE26DD006EB467 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C0B40A21AE26DD006EB467 /* CardCell.swift */; };
+		41D571B421A179BE00491450 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D571B321A179BE00491450 /* ResetPasswordViewController.swift */; };
+		41D58A3321A1C92D00A88A2B /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D58A3221A1C92D00A88A2B /* SpinnerViewController.swift */; };
+		41DAD61B219B613A00641CEB /* PaymentOptionCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DAD61A219B613A00641CEB /* PaymentOptionCellTableViewCell.swift */; };
+		41F6B5382198ED4C009271B0 /* ScooterMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6B5372198ED4C009271B0 /* ScooterMarker.swift */; };
+		41F74B3D21A0E6A500CCFEB6 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F74B3C21A0E6A500CCFEB6 /* SettingViewController.swift */; };
+		41F74B3F21A0E6C900CCFEB6 /* InviteFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F74B3E21A0E6C900CCFEB6 /* InviteFriendsViewController.swift */; };
+		41F74B4221A0E6F800CCFEB6 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F74B4121A0E6F800CCFEB6 /* MyProfileViewController.swift */; };
+		41F74B4421A0E70E00CCFEB6 /* MyTripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F74B4321A0E70E00CCFEB6 /* MyTripsViewController.swift */; };
+		41F74B4621A0E72400CCFEB6 /* UserManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F74B4521A0E72400CCFEB6 /* UserManualViewController.swift */; };
+		41F74B4821A0E74000CCFEB6 /* MyWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F74B4721A0E74000CCFEB6 /* MyWalletViewController.swift */; };
+		41FF24EE21A58D1600902CEC /* FindScooterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FF24ED21A58D1600902CEC /* FindScooterViewController.swift */; };
+		46658422215266CE006CDC16 /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46658421215266CE006CDC16 /* UserLoginViewController.swift */; };
+		46658424215266E2006CDC16 /* UserSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46658423215266E2006CDC16 /* UserSignupViewController.swift */; };
+		466584262152B844006CDC16 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466584252152B844006CDC16 /* QRViewController.swift */; };
+		467403992194C39C00D1E3AB /* RideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467403972194C39C00D1E3AB /* RideViewController.swift */; };
+		4674039A2194C39C00D1E3AB /* RideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 467403982194C39C00D1E3AB /* RideViewController.xib */; };
+		7774857A69300ADCF4A634BC /* Pods_SCOOTER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448B1184B2D1803957B3D66F /* Pods_SCOOTER.framework */; };
+		F2110C182149F98100F4FE18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2110C172149F98100F4FE18 /* AppDelegate.swift */; };
+		F2110C1A2149F98100F4FE18 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2110C192149F98100F4FE18 /* LoginViewController.swift */; };
+		F2110C1D2149F98100F4FE18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2110C1B2149F98100F4FE18 /* Main.storyboard */; };
+		F2110C202149F98100F4FE18 /* SCOOTER.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2110C1E2149F98100F4FE18 /* SCOOTER.xcdatamodeld */; };
+		F2110C222149F98500F4FE18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2110C212149F98500F4FE18 /* Assets.xcassets */; };
+		F2110C252149F98500F4FE18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2110C232149F98500F4FE18 /* LaunchScreen.storyboard */; };
+		F2110C302149F98600F4FE18 /* SCOOTERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2110C2F2149F98600F4FE18 /* SCOOTERTests.swift */; };
+		F2110C3B2149F98600F4FE18 /* SCOOTERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2110C3A2149F98600F4FE18 /* SCOOTERUITests.swift */; };
+		F2110C49214A015C00F4FE18 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2110C48214A015C00F4FE18 /* MapViewController.swift */; };
+		F24E86AA214C1A0B00C39264 /* PhoneVerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24E86A9214C1A0B00C39264 /* PhoneVerifyViewController.swift */; };
+		F24E86AE214C1FDD00C39264 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = F24E86AD214C1FDD00C39264 /* Keys.plist */; };
+		F27D9018214C444600007E39 /* VerifyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D9017214C444600007E39 /* VerifyAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2110C2C2149F98600F4FE18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2110C0C2149F98100F4FE18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2110C132149F98100F4FE18;
+			remoteInfo = SCOOTER;
+		};
+		F2110C372149F98600F4FE18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2110C0C2149F98100F4FE18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2110C132149F98100F4FE18;
+			remoteInfo = SCOOTER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FE9846AFD31842049BC6EBD /* Pods_SCOOTERUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCOOTERUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4053113D6175A889E61B2CF1 /* Pods-SCOOTER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCOOTER.release.xcconfig"; path = "Pods/Target Support Files/Pods-SCOOTER/Pods-SCOOTER.release.xcconfig"; sourceTree = "<group>"; };
+		41034D6921A48234008206D2 /* RideHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		4106325A219A462C00DBA7F5 /* PriceResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceResultViewController.swift; sourceTree = "<group>"; };
+		4117418321980144002761FB /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
+		413B02F321AEC17F009EF920 /* CreditCardValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardValidator.swift; sourceTree = "<group>"; };
+		413B02F521AEC1C6009EF920 /* CreditCardValidationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardValidationType.swift; sourceTree = "<group>"; };
+		414495D021AF4F17003FC04D /* AddCreditorDebitCardviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCreditorDebitCardviewController.swift; sourceTree = "<group>"; };
+		414DF9B921A015D3008A0DAC /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		415A26DF219DF79F00349968 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		4176E76B21A5449300D29A4E /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		41A27354219AF4E600AD560D /* SignUpDepositViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpDepositViewController.swift; sourceTree = "<group>"; };
+		41A3BB3521A643E100198898 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		41A3BB3721A64D6C00198898 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		41B17A3421A28C4B002101F1 /* DepositViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositViewController.swift; sourceTree = "<group>"; };
+		41B690BA2190EADE00F570AA /* Connect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connect.swift; sourceTree = "<group>"; };
+		41C0B40621AE1AAA006EB467 /* RoundedUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedUIButton.swift; sourceTree = "<group>"; };
+		41C0B40821AE25B8006EB467 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		41C0B40A21AE26DD006EB467 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		41D571B321A179BE00491450 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		41D58A3221A1C92D00A88A2B /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		41DAD61A219B613A00641CEB /* PaymentOptionCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentOptionCellTableViewCell.swift; sourceTree = "<group>"; };
+		41F6B5372198ED4C009271B0 /* ScooterMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScooterMarker.swift; sourceTree = "<group>"; };
+		41F74B3C21A0E6A500CCFEB6 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		41F74B3E21A0E6C900CCFEB6 /* InviteFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteFriendsViewController.swift; sourceTree = "<group>"; };
+		41F74B4121A0E6F800CCFEB6 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		41F74B4321A0E70E00CCFEB6 /* MyTripsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTripsViewController.swift; sourceTree = "<group>"; };
+		41F74B4521A0E72400CCFEB6 /* UserManualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManualViewController.swift; sourceTree = "<group>"; };
+		41F74B4721A0E74000CCFEB6 /* MyWalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWalletViewController.swift; sourceTree = "<group>"; };
+		41FF24ED21A58D1600902CEC /* FindScooterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindScooterViewController.swift; sourceTree = "<group>"; };
+		448B1184B2D1803957B3D66F /* Pods_SCOOTER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCOOTER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46658421215266CE006CDC16 /* UserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
+		46658423215266E2006CDC16 /* UserSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignupViewController.swift; sourceTree = "<group>"; };
+		466584252152B844006CDC16 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		467403972194C39C00D1E3AB /* RideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideViewController.swift; sourceTree = "<group>"; };
+		467403982194C39C00D1E3AB /* RideViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RideViewController.xib; sourceTree = "<group>"; };
+		7A69D3955EA5C0DCABF0DDF0 /* Pods-SCOOTER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCOOTER.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SCOOTER/Pods-SCOOTER.debug.xcconfig"; sourceTree = "<group>"; };
+		F041DE91144D9C09FB9FCA72 /* Pods_SCOOTERTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCOOTERTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2110C142149F98100F4FE18 /* SCOOTER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCOOTER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2110C172149F98100F4FE18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2110C192149F98100F4FE18 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F2110C1C2149F98100F4FE18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2110C1F2149F98100F4FE18 /* SCOOTER.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SCOOTER.xcdatamodel; sourceTree = "<group>"; };
+		F2110C212149F98500F4FE18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2110C242149F98500F4FE18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2110C262149F98500F4FE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2110C2B2149F98600F4FE18 /* SCOOTERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCOOTERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2110C2F2149F98600F4FE18 /* SCOOTERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCOOTERTests.swift; sourceTree = "<group>"; };
+		F2110C312149F98600F4FE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2110C362149F98600F4FE18 /* SCOOTERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCOOTERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2110C3A2149F98600F4FE18 /* SCOOTERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCOOTERUITests.swift; sourceTree = "<group>"; };
+		F2110C3C2149F98600F4FE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2110C48214A015C00F4FE18 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F24E86A9214C1A0B00C39264 /* PhoneVerifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneVerifyViewController.swift; sourceTree = "<group>"; };
+		F24E86AD214C1FDD00C39264 /* Keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
+		F27D9017214C444600007E39 /* VerifyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyAPI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2110C112149F98100F4FE18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7774857A69300ADCF4A634BC /* Pods_SCOOTER.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2110C282149F98600F4FE18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2110C332149F98600F4FE18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EC8560F695B864DF346BA36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A69D3955EA5C0DCABF0DDF0 /* Pods-SCOOTER.debug.xcconfig */,
+				4053113D6175A889E61B2CF1 /* Pods-SCOOTER.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		41B17A3221A28047002101F1 /* payment */ = {
+			isa = PBXGroup;
+			children = (
+				414495D021AF4F17003FC04D /* AddCreditorDebitCardviewController.swift */,
+				41F74B4721A0E74000CCFEB6 /* MyWalletViewController.swift */,
+				41B17A3421A28C4B002101F1 /* DepositViewController.swift */,
+				41C0B40821AE25B8006EB467 /* PaymentViewController.swift */,
+			);
+			path = payment;
+			sourceTree = "<group>";
+		};
+		41D571AE21A1752E00491450 /* myprofile */ = {
+			isa = PBXGroup;
+			children = (
+				41F74B4121A0E6F800CCFEB6 /* MyProfileViewController.swift */,
+				41D571B321A179BE00491450 /* ResetPasswordViewController.swift */,
+			);
+			path = myprofile;
+			sourceTree = "<group>";
+		};
+		41DAD61C219B80E100641CEB /* Stripe */ = {
+			isa = PBXGroup;
+			children = (
+				41A27354219AF4E600AD560D /* SignUpDepositViewController.swift */,
+				413B02F321AEC17F009EF920 /* CreditCardValidator.swift */,
+				413B02F521AEC1C6009EF920 /* CreditCardValidationType.swift */,
+			);
+			path = Stripe;
+			sourceTree = "<group>";
+		};
+		41F6B5362198ECCB009271B0 /* CustomComponent */ = {
+			isa = PBXGroup;
+			children = (
+				41F6B5372198ED4C009271B0 /* ScooterMarker.swift */,
+				41DAD61A219B613A00641CEB /* PaymentOptionCellTableViewCell.swift */,
+				41D58A3221A1C92D00A88A2B /* SpinnerViewController.swift */,
+				41034D6921A48234008206D2 /* RideHistoryTableViewCell.swift */,
+				41C0B40621AE1AAA006EB467 /* RoundedUIButton.swift */,
+				41C0B40A21AE26DD006EB467 /* CardCell.swift */,
+			);
+			path = CustomComponent;
+			sourceTree = "<group>";
+		};
+		41F74B4021A0E6DB00CCFEB6 /* menus */ = {
+			isa = PBXGroup;
+			children = (
+				41B17A3221A28047002101F1 /* payment */,
+				41D571AE21A1752E00491450 /* myprofile */,
+				41F74B3C21A0E6A500CCFEB6 /* SettingViewController.swift */,
+				41F74B3E21A0E6C900CCFEB6 /* InviteFriendsViewController.swift */,
+				41F74B4321A0E70E00CCFEB6 /* MyTripsViewController.swift */,
+				41F74B4521A0E72400CCFEB6 /* UserManualViewController.swift */,
+			);
+			path = menus;
+			sourceTree = "<group>";
+		};
+		470248A07AE65988012EC0DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				448B1184B2D1803957B3D66F /* Pods_SCOOTER.framework */,
+				F041DE91144D9C09FB9FCA72 /* Pods_SCOOTERTests.framework */,
+				0FE9846AFD31842049BC6EBD /* Pods_SCOOTERUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2110C0B2149F98100F4FE18 = {
+			isa = PBXGroup;
+			children = (
+				F2110C162149F98100F4FE18 /* SCOOTER */,
+				F2110C2E2149F98600F4FE18 /* SCOOTERTests */,
+				F2110C392149F98600F4FE18 /* SCOOTERUITests */,
+				F2110C152149F98100F4FE18 /* Products */,
+				2EC8560F695B864DF346BA36 /* Pods */,
+				470248A07AE65988012EC0DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2110C152149F98100F4FE18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2110C142149F98100F4FE18 /* SCOOTER.app */,
+				F2110C2B2149F98600F4FE18 /* SCOOTERTests.xctest */,
+				F2110C362149F98600F4FE18 /* SCOOTERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2110C162149F98100F4FE18 /* SCOOTER */ = {
+			isa = PBXGroup;
+			children = (
+				41DAD61C219B80E100641CEB /* Stripe */,
+				41F6B5362198ECCB009271B0 /* CustomComponent */,
+				F27D9016214C443300007E39 /* Utilities */,
+				F2110C4A214A016D00F4FE18 /* ViewControllers */,
+				F2110C172149F98100F4FE18 /* AppDelegate.swift */,
+				F2110C1B2149F98100F4FE18 /* Main.storyboard */,
+				F2110C212149F98500F4FE18 /* Assets.xcassets */,
+				F2110C232149F98500F4FE18 /* LaunchScreen.storyboard */,
+				F2110C262149F98500F4FE18 /* Info.plist */,
+				F2110C1E2149F98100F4FE18 /* SCOOTER.xcdatamodeld */,
+				F24E86AD214C1FDD00C39264 /* Keys.plist */,
+			);
+			path = SCOOTER;
+			sourceTree = "<group>";
+		};
+		F2110C2E2149F98600F4FE18 /* SCOOTERTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2110C2F2149F98600F4FE18 /* SCOOTERTests.swift */,
+				F2110C312149F98600F4FE18 /* Info.plist */,
+			);
+			path = SCOOTERTests;
+			sourceTree = "<group>";
+		};
+		F2110C392149F98600F4FE18 /* SCOOTERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2110C3A2149F98600F4FE18 /* SCOOTERUITests.swift */,
+				F2110C3C2149F98600F4FE18 /* Info.plist */,
+			);
+			path = SCOOTERUITests;
+			sourceTree = "<group>";
+		};
+		F2110C4A214A016D00F4FE18 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				41F74B4021A0E6DB00CCFEB6 /* menus */,
+				F2110C192149F98100F4FE18 /* LoginViewController.swift */,
+				F2110C48214A015C00F4FE18 /* MapViewController.swift */,
+				F24E86A9214C1A0B00C39264 /* PhoneVerifyViewController.swift */,
+				46658421215266CE006CDC16 /* UserLoginViewController.swift */,
+				46658423215266E2006CDC16 /* UserSignupViewController.swift */,
+				466584252152B844006CDC16 /* QRViewController.swift */,
+				467403972194C39C00D1E3AB /* RideViewController.swift */,
+				467403982194C39C00D1E3AB /* RideViewController.xib */,
+				4106325A219A462C00DBA7F5 /* PriceResultViewController.swift */,
+				4176E76B21A5449300D29A4E /* SideMenuViewController.swift */,
+				41FF24ED21A58D1600902CEC /* FindScooterViewController.swift */,
+				41A3BB3521A643E100198898 /* LaunchViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F27D9016214C443300007E39 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F27D9017214C444600007E39 /* VerifyAPI.swift */,
+				41B690BA2190EADE00F570AA /* Connect.swift */,
+				4117418321980144002761FB /* helper.swift */,
+				415A26DF219DF79F00349968 /* Api.swift */,
+				414DF9B921A015D3008A0DAC /* Notifications.swift */,
+				41A3BB3721A64D6C00198898 /* extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2110C132149F98100F4FE18 /* SCOOTER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2110C3F2149F98600F4FE18 /* Build configuration list for PBXNativeTarget "SCOOTER" */;
+			buildPhases = (
+				5CD641D7E7522AFD6E9E6E80 /* [CP] Check Pods Manifest.lock */,
+				F2110C102149F98100F4FE18 /* Sources */,
+				F2110C112149F98100F4FE18 /* Frameworks */,
+				F2110C122149F98100F4FE18 /* Resources */,
+				2673DA139579ED8166F880F9 /* [CP] Copy Pods Resources */,
+				43EB64602ABCCF49604C3AFA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCOOTER;
+			productName = SCOOTER;
+			productReference = F2110C142149F98100F4FE18 /* SCOOTER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2110C2A2149F98600F4FE18 /* SCOOTERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2110C422149F98600F4FE18 /* Build configuration list for PBXNativeTarget "SCOOTERTests" */;
+			buildPhases = (
+				F2110C272149F98600F4FE18 /* Sources */,
+				F2110C282149F98600F4FE18 /* Frameworks */,
+				F2110C292149F98600F4FE18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2110C2D2149F98600F4FE18 /* PBXTargetDependency */,
+			);
+			name = SCOOTERTests;
+			productName = SCOOTERTests;
+			productReference = F2110C2B2149F98600F4FE18 /* SCOOTERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2110C352149F98600F4FE18 /* SCOOTERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2110C452149F98600F4FE18 /* Build configuration list for PBXNativeTarget "SCOOTERUITests" */;
+			buildPhases = (
+				F2110C322149F98600F4FE18 /* Sources */,
+				F2110C332149F98600F4FE18 /* Frameworks */,
+				F2110C342149F98600F4FE18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2110C382149F98600F4FE18 /* PBXTargetDependency */,
+			);
+			name = SCOOTERUITests;
+			productName = SCOOTERUITests;
+			productReference = F2110C362149F98600F4FE18 /* SCOOTERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2110C0C2149F98100F4FE18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = JinClevery;
+				TargetAttributes = {
+					F2110C132149F98100F4FE18 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					F2110C2A2149F98600F4FE18 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F2110C132149F98100F4FE18;
+					};
+					F2110C352149F98600F4FE18 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F2110C132149F98100F4FE18;
+					};
+				};
+			};
+			buildConfigurationList = F2110C0F2149F98100F4FE18 /* Build configuration list for PBXProject "SCOOTER" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2110C0B2149F98100F4FE18;
+			productRefGroup = F2110C152149F98100F4FE18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2110C352149F98600F4FE18 /* SCOOTERUITests */,
+				F2110C132149F98100F4FE18 /* SCOOTER */,
+				F2110C2A2149F98600F4FE18 /* SCOOTERTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2110C122149F98100F4FE18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24E86AE214C1FDD00C39264 /* Keys.plist in Resources */,
+				4674039A2194C39C00D1E3AB /* RideViewController.xib in Resources */,
+				F2110C252149F98500F4FE18 /* LaunchScreen.storyboard in Resources */,
+				F2110C222149F98500F4FE18 /* Assets.xcassets in Resources */,
+				F2110C1D2149F98100F4FE18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2110C292149F98600F4FE18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2110C342149F98600F4FE18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2673DA139579ED8166F880F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SCOOTER/Pods-SCOOTER-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SCOOTER/Pods-SCOOTER-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43EB64602ABCCF49604C3AFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SCOOTER/Pods-SCOOTER-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/HideShowPasswordTextField/HideShowPasswordTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/NKVPhonePicker/NKVPhonePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/PinCodeTextField/PinCodeTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/Repeat/Repeat.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HideShowPasswordTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NKVPhonePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PinCodeTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Repeat.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SCOOTER/Pods-SCOOTER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CD641D7E7522AFD6E9E6E80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SCOOTER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2110C102149F98100F4FE18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C0B40B21AE26DD006EB467 /* CardCell.swift in Sources */,
+				414DF9BA21A015D3008A0DAC /* Notifications.swift in Sources */,
+				F2110C202149F98100F4FE18 /* SCOOTER.xcdatamodeld in Sources */,
+				466584262152B844006CDC16 /* QRViewController.swift in Sources */,
+				4176E76C21A5449300D29A4E /* SideMenuViewController.swift in Sources */,
+				467403992194C39C00D1E3AB /* RideViewController.swift in Sources */,
+				41A3BB3821A64D6C00198898 /* extensions.swift in Sources */,
+				41DAD61B219B613A00641CEB /* PaymentOptionCellTableViewCell.swift in Sources */,
+				41C0B40921AE25B8006EB467 /* PaymentViewController.swift in Sources */,
+				41F74B3D21A0E6A500CCFEB6 /* SettingViewController.swift in Sources */,
+				413B02F421AEC17F009EF920 /* CreditCardValidator.swift in Sources */,
+				F2110C1A2149F98100F4FE18 /* LoginViewController.swift in Sources */,
+				F27D9018214C444600007E39 /* VerifyAPI.swift in Sources */,
+				F2110C182149F98100F4FE18 /* AppDelegate.swift in Sources */,
+				F2110C49214A015C00F4FE18 /* MapViewController.swift in Sources */,
+				414495D121AF4F18003FC04D /* AddCreditorDebitCardviewController.swift in Sources */,
+				41F74B4621A0E72400CCFEB6 /* UserManualViewController.swift in Sources */,
+				F24E86AA214C1A0B00C39264 /* PhoneVerifyViewController.swift in Sources */,
+				41F6B5382198ED4C009271B0 /* ScooterMarker.swift in Sources */,
+				41D58A3321A1C92D00A88A2B /* SpinnerViewController.swift in Sources */,
+				41A27355219AF4E600AD560D /* SignUpDepositViewController.swift in Sources */,
+				41F74B4421A0E70E00CCFEB6 /* MyTripsViewController.swift in Sources */,
+				41FF24EE21A58D1600902CEC /* FindScooterViewController.swift in Sources */,
+				41F74B3F21A0E6C900CCFEB6 /* InviteFriendsViewController.swift in Sources */,
+				41034D6A21A48234008206D2 /* RideHistoryTableViewCell.swift in Sources */,
+				46658424215266E2006CDC16 /* UserSignupViewController.swift in Sources */,
+				4117418421980144002761FB /* helper.swift in Sources */,
+				4106325B219A462C00DBA7F5 /* PriceResultViewController.swift in Sources */,
+				41A3BB3621A643E100198898 /* LaunchViewController.swift in Sources */,
+				41F74B4821A0E74000CCFEB6 /* MyWalletViewController.swift in Sources */,
+				413B02F621AEC1C6009EF920 /* CreditCardValidationType.swift in Sources */,
+				41F74B4221A0E6F800CCFEB6 /* MyProfileViewController.swift in Sources */,
+				46658422215266CE006CDC16 /* UserLoginViewController.swift in Sources */,
+				41B690BB2190EADE00F570AA /* Connect.swift in Sources */,
+				41C0B40721AE1AAA006EB467 /* RoundedUIButton.swift in Sources */,
+				41B17A3521A28C4B002101F1 /* DepositViewController.swift in Sources */,
+				415A26E0219DF79F00349968 /* Api.swift in Sources */,
+				41D571B421A179BE00491450 /* ResetPasswordViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2110C272149F98600F4FE18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2110C302149F98600F4FE18 /* SCOOTERTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2110C322149F98600F4FE18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2110C3B2149F98600F4FE18 /* SCOOTERUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2110C2D2149F98600F4FE18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2110C132149F98100F4FE18 /* SCOOTER */;
+			targetProxy = F2110C2C2149F98600F4FE18 /* PBXContainerItemProxy */;
+		};
+		F2110C382149F98600F4FE18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2110C132149F98100F4FE18 /* SCOOTER */;
+			targetProxy = F2110C372149F98600F4FE18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2110C1B2149F98100F4FE18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2110C1C2149F98100F4FE18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2110C232149F98500F4FE18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2110C242149F98500F4FE18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2110C3D2149F98600F4FE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2110C3E2149F98600F4FE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2110C402149F98600F4FE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A69D3955EA5C0DCABF0DDF0 /* Pods-SCOOTER.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5B7ZPBN692;
+				INFOPLIST_FILE = SCOOTER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruckmedia.SCOOTER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f2642e29-2697-4f0a-82fd-32c2b7008ccc";
+				PROVISIONING_PROFILE_SPECIFIER = scooter_development;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2110C412149F98600F4FE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4053113D6175A889E61B2CF1 /* Pods-SCOOTER.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5B7ZPBN692;
+				INFOPLIST_FILE = SCOOTER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruckmedia.SCOOTER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4b0dcfc0-3cd0-4139-ab31-59656db3c04a";
+				PROVISIONING_PROFILE_SPECIFIER = scooter_distribution;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2110C432149F98600F4FE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SCOOTERTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Clevery.SCOOTERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCOOTER.app/SCOOTER";
+			};
+			name = Debug;
+		};
+		F2110C442149F98600F4FE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SCOOTERTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Clevery.SCOOTERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCOOTER.app/SCOOTER";
+			};
+			name = Release;
+		};
+		F2110C462149F98600F4FE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SCOOTERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Clevery.SCOOTERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SCOOTER;
+			};
+			name = Debug;
+		};
+		F2110C472149F98600F4FE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SCOOTERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Clevery.SCOOTERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SCOOTER;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2110C0F2149F98100F4FE18 /* Build configuration list for PBXProject "SCOOTER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2110C3D2149F98600F4FE18 /* Debug */,
+				F2110C3E2149F98600F4FE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2110C3F2149F98600F4FE18 /* Build configuration list for PBXNativeTarget "SCOOTER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2110C402149F98600F4FE18 /* Debug */,
+				F2110C412149F98600F4FE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2110C422149F98600F4FE18 /* Build configuration list for PBXNativeTarget "SCOOTERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2110C432149F98600F4FE18 /* Debug */,
+				F2110C442149F98600F4FE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2110C452149F98600F4FE18 /* Build configuration list for PBXNativeTarget "SCOOTERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2110C462149F98600F4FE18 /* Debug */,
+				F2110C472149F98600F4FE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2110C1E2149F98100F4FE18 /* SCOOTER.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2110C1F2149F98100F4FE18 /* SCOOTER.xcdatamodel */,
+			);
+			currentVersion = F2110C1F2149F98100F4FE18 /* SCOOTER.xcdatamodel */;
+			path = SCOOTER.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F2110C0C2149F98100F4FE18 /* Project object */;
+}
